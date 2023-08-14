@@ -7,7 +7,6 @@ import Layout from "@/components/Layout";
 const Home: React.FC = () => {
   return (
     <Layout>
-      <h1>Ethereum Wallet App</h1>
       <WalletCreation />
       <SendETH />
       <SmartContractInteraction />
